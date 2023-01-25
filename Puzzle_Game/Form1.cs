@@ -26,7 +26,10 @@ namespace Puzzle_Game
         {
 
         }
-
+        /*The button9_Click method is called when the button with the name "button9" is clicked. 
+         * It enables all buttons in the "panel1" container, loads an image from the project's resources, 
+         * and calls the RecortarImagen method to crop the image into 8 smaller images. 
+         * These smaller images are then shuffled and added to the buttons in the "panel1" container using the AñadirImagenABoton method.*/
         private void button9_Click(object sender, EventArgs e)
         {
             foreach (Button b in panel1.Controls)
@@ -39,7 +42,7 @@ namespace Puzzle_Game
 
             AñadirImagenABoton(images);
         }
-
+        /*The AñadirImagenABoton method takes an ArrayList of images as a parameter and assigns the images to the buttons in the "panel1" container in a shuffled order.*/
         private void AñadirImagenABoton(ArrayList images)
         {
             int i = 0;
@@ -56,7 +59,7 @@ namespace Puzzle_Game
                 }
             }
         }
-
+        /*The suffle method takes an int[] array as a parameter, shuffles its elements using the Random class, and returns the shuffled array.*/
         private int[] suffle(int[] arr)
         {
             Random rand = new Random();
@@ -64,7 +67,11 @@ namespace Puzzle_Game
             return arr;
         }
 
-        private void RecortarImagen(Image orginal, int w, int h)
+
+        /*The RecortarImagen method takes an Image and two integers as parameters. 
+         * It creates a new bitmap with the specified width and height, draws the original image onto the bitmap, 
+         * and crops the bitmap into 8 smaller images, which are then added to the images ArrayList.*/
+        private void RecortarImagen(Image orginal, int w, int h) 
         {
             Bitmap bmp = new Bitmap(w, h);
 
@@ -97,12 +104,15 @@ namespace Puzzle_Game
             }
 
         }
-
+        /*The button1_Click method is called when any button in the "panel1" container is clicked. 
+         * It calls the MoveButton method, passing the clicked button as a parameter.*/
         private void button1_Click(object sender, EventArgs e)
         {
             MoveButton((Button)sender);
         }
-
+        /*The MoveButton method takes a Button object as a parameter, 
+         * and swaps its location with the location of the EmptyPoint field if the button is adjacent to the EmptyPoint. 
+         * After the swap, it calls the ComprobarPuzzle method if the EmptyPoint field's location is the original location.*/
         private void MoveButton(Button btn)
         {
             if (((btn.Location.X == EmptyPoint.X - 90 || btn.Location.X == EmptyPoint.X + 90)
@@ -118,7 +128,8 @@ namespace Puzzle_Game
             if (EmptyPoint.X == 180 && EmptyPoint.Y == 180)
                 ComprobarPuzzle();
         }
-
+        /*The ComprobarPuzzle method compares the images of the buttons in the "panel1" container with the images in the images ArrayList, 
+         * and if they match, a message box is displayed to indicate that the puzzle has been completed.*/
         private void ComprobarPuzzle()
         {
             int count = 0, index;
