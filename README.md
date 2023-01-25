@@ -8,19 +8,19 @@ How to Play
     Continue sliding the pieces around until the image is reassembled.
     If the image is successfully reassembled, a message will appear indicating that the puzzle is solved.
 
-Technologies Used
+<h2>Technologies Used</h2>
 
     C#
     Windows Forms
 
-Features
+<h2>Features</h2>
 
     The game uses an image from the project's resources.
     The image is divided into 8 pieces and shuffled randomly.
     The player can move pieces around by clicking on them.
     The game checks if the puzzle is solved and displays a message if it is.
 
-Future Improvements
+<h2>Future improvements</h2>
 
     Add a timer to track how long it takes to solve the puzzle.
     Add a difficulty setting to increase or decrease the number of puzzle pieces.
