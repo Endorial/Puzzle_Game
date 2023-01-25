@@ -1,0 +1,10 @@
+C:\Users\sebas\source\repos\Puzzle_Game\Puzzle_Game\obj\Debug\Puzzle_Game.csproj.AssemblyReference.cache
+C:\Users\sebas\source\repos\Puzzle_Game\Puzzle_Game\obj\Debug\Puzzle_Game.Properties.Resources.resources
+C:\Users\sebas\source\repos\Puzzle_Game\Puzzle_Game\obj\Debug\Puzzle_Game.csproj.GenerateResource.cache
+C:\Users\sebas\source\repos\Puzzle_Game\Puzzle_Game\obj\Debug\Puzzle_Game.csproj.CoreCompileInputs.cache
+C:\Users\sebas\source\repos\Puzzle_Game\Puzzle_Game\bin\Debug\Puzzle_Game.exe.config
+C:\Users\sebas\source\repos\Puzzle_Game\Puzzle_Game\bin\Debug\Puzzle_Game.exe
+C:\Users\sebas\source\repos\Puzzle_Game\Puzzle_Game\bin\Debug\Puzzle_Game.pdb
+C:\Users\sebas\source\repos\Puzzle_Game\Puzzle_Game\obj\Debug\Puzzle_Game.exe
+C:\Users\sebas\source\repos\Puzzle_Game\Puzzle_Game\obj\Debug\Puzzle_Game.pdb
+C:\Users\sebas\source\repos\Puzzle_Game\Puzzle_Game\obj\Debug\Puzzle_Game.Form1.resources
