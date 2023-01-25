@@ -1,4 +1,7 @@
-# Puzzle Game
+![Puzzle_Game(2)](https://user-images.githubusercontent.com/57392686/214585289-aed26171-9746-4cd4-9a86-2b0fd1a60828.png)
+
+
+
 
 This is a simple puzzle game where the player has to reassemble an image by sliding the pieces around.
 How to Play
@@ -44,7 +47,9 @@ Installation
 
     1.Clone the repository
     
-        git clone https://github.com/your-username/puzzle-game.git
+```bash
+git clone https://github.com/your-username/puzzle-game.git
+```
 
     2.Open the solution in Visual Studio
     3.Build and Run the project by clicking the green play button or by pressing F5
